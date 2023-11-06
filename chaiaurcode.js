@@ -35,7 +35,6 @@ document.getElementById('start').addEventListener('click', () => {
 document.getElementById('stop').addEventListener('click', () => {
 
     clearInterval(func1)
-
     func1=null
 })
 
