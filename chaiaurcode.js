@@ -23,6 +23,8 @@ const changecolor = () => {
 
 let func1
 
+
+// for beginning the operation of changing colours
 document.getElementById('start').addEventListener('click', () => {
 
     if(!func1)
@@ -32,6 +34,7 @@ document.getElementById('start').addEventListener('click', () => {
 
 })
 
+// for stopping the operation
 document.getElementById('stop').addEventListener('click', () => {
 
     clearInterval(func1)
